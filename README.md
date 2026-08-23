@@ -39,24 +39,24 @@
 ## 🎯 Threat Intelligence Platform Overview
 
 ```mermaid
-flowchart LR
-    subgraph Sources["🔍 Threat Sources"]
-        S1[AbuseIPDB]
-        S2[AlienVault OTX]
-        S3[FireHOL L1-L4]
-        S4[Tor Project]
-        S5[URLhaus]
-        S6[MalwareBazaar]
+flowchart TB
+    subgraph Sources["🔍 Threat Intelligence Sources"]
+        S1[AbuseIPDB API]
+        S2[AlienVault OTX Pulses]
+        S3[FireHOL Blocklists L1-L4]
+        S4[Tor Exit Nodes]
+        S5[URLhaus Malware URLs]
+        S6[MalwareBazaar Samples]
         S7[Custom Honeypots]
     end
 
-    Pipeline["🤖 Automated Collection<br/>(Every 12h)"]
-    Validate["✅ Validation Engine<br/>VT ≥3 · AbuseIPDB ≥25% · Talos"]
-    Dedup["🚫 Deduplication<br/>Bloom Filter + Git History"]
-    Repos["📦 GitHub Repos<br/>IPs · Domains · Hashes"]
-    Tools["🔥 Firewalls / SIEM / EDR<br/>Palo Alto · Sentinel · Splunk · FortiGate · CrowdStrike · ELK · MISP"]
+    Collect["🤖 Automated Collection<br/>(Every 12 hours via GitHub Actions)"]
+    Validate["✅ Multi-Source Validation<br/>VirusTotal ≥3 detections · AbuseIPDB ≥25% · Cisco Talos"]
+    Dedup["🚫 Zero-Duplicate Guarantee<br/>Bloom Filter + Git History Scan + Cross-Partition"]
+    Repos["📦 Partitioned GitHub Repositories<br/>IPs (100K/file) · Domains (100K/file) · Hashes (60K/file)"]
+    Deploy["🚀 Direct Tool Integration<br/>Palo Alto · FortiGate · Sentinel · Splunk · QRadar · CrowdStrike · ELK · MISP · SentinelOne"]
 
-    Sources --> Pipeline --> Validate --> Dedup --> Repos --> Tools
+    Sources --> Collect --> Validate --> Dedup --> Repos --> Deploy
 
     classDef source fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
     classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1;
@@ -64,9 +64,9 @@ flowchart LR
     classDef final fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
 
     class S1,S2,S3,S4,S5,S6,S7 source;
-    class Pipeline,Validate,Dedup process;
+    class Collect,Validate,Dedup process;
     class Repos output;
-    class Tools final;
+    class Deploy final;
 ```
 
 ---
@@ -169,26 +169,26 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 
 <div align="center">
 
-### 🏆 Active Certifications (16)
+### 🏆 Certifications (16)
 
-| Certification | Issuer | Status |
-|---------------|--------|--------|
-| **Certified Ethical Hacker (CEH)** | EC-Council | ✅ Active |
-| **Certified Incident Handler (CIH)** | EC-Council | ✅ Active |
-| **ISO/IEC 27001:2022 Lead Auditor** | Mastermind | ✅ Active |
-| **ISO/IEC 27701:2025 Lead Auditor** | Mastermind | ✅ Active |
-| **ISO/IEC 42001:2023 Lead Auditor** | Mastermind | ✅ Active |
-| **Cyber Threat Intelligence 101** | ArcX | ✅ Active |
-| **CNSP** | The SecOps Group | ✅ Active |
-| **CCSP** | The SecOps Group | ✅ Active |
-| **Certified AppSec Practitioner (CAP)** | The SecOps Group | ✅ Active |
-| **Certified AI Agent Security Specialist** | Proofpoint | ✅ Active |
-| **SailPoint Identity Security Leader** | SailPoint Technologies | ✅ Active |
-| **FALCON 101: Falcon Platform Essentials** | CrowdStrike University | ✅ Active |
-| **OT Security Expert (OOSE)** | OPSWAT Academy | ✅ Active |
-| **Seceon OTM Advanced & Foundation** | Seceon | ✅ Active |
-| **PCI DSS Awareness** | TÜV SÜD | ✅ Active |
-| **Microsoft Technology Associate** | Certiport | ✅ Active |
+| Certification | Issuer |
+|---------------|--------|
+| **Certified Ethical Hacker (CEH)** | EC-Council |
+| **Certified Incident Handler (CIH)** | EC-Council |
+| **ISO/IEC 27001:2022 Lead Auditor** | Mastermind |
+| **ISO/IEC 27701:2025 Lead Auditor** | Mastermind |
+| **ISO/IEC 42001:2023 Lead Auditor** | Mastermind |
+| **Cyber Threat Intelligence 101** | ArcX |
+| **CNSP** | The SecOps Group |
+| **CCSP** | The SecOps Group |
+| **Certified AppSec Practitioner (CAP)** | The SecOps Group |
+| **Certified AI Agent Security Specialist** | Proofpoint |
+| **SailPoint Identity Security Leader** | SailPoint Technologies |
+| **FALCON 101: Falcon Platform Essentials** | CrowdStrike University |
+| **OT Security Expert (OOSE)** | OPSWAT Academy |
+| **Seceon OTM Advanced & Foundation** | Seceon |
+| **PCI DSS Awareness** | TÜV SÜD |
+| **Microsoft Technology Associate** | Certiport |
 
 ### 🎓 In Progress
 | Certification | Status |
