@@ -4,7 +4,9 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-amitambekar510-181717?style=for-the-badge&logo=github)](https://github.com/amitambekar510)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-amitmilindambekar-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amitmilindambekar/)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:amit.ambekar@protonmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-thesafehouse.in-FF6B35?style=for-the-badge&logo=firefox)](https://portfolio.thesafehouse.in)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=protonmail)](mailto:amit.ambekar@protonmail.com)
+[![OTX](https://img.shields.io/badge/OTX_AlienVault-amitambekar-00D4AA?style=for-the-badge&logo=alienvault)](https://otx.alienvault.com/user/amitambekar/pulses)
 
 </div>
 
@@ -12,7 +14,17 @@
 
 <div align="center">
 
-### 🔴 LIVE THREAT INTELLIGENCE FEEDS
+### 🎯 Focus: SOC Operations · Threat Intelligence · Security Automation · Cloud Security
+
+![Profile Views](https://komarev.com/ghpvc/?username=amitambekar510&color=00ff41&style=for-the-badge&label=Profile+Views)
+![Followers](https://img.shields.io/github/followers/amitambekar510?style=for-the-badge&color=00ff41)
+![Stars](https://img.shields.io/github/stars/amitambekar510?style=for-the-badge&color=ff8c00)
+
+</div>
+
+---
+
+## 🔴 LIVE THREAT INTELLIGENCE FEEDS
 
 | Feed | IOCs | Last Updated | Status | RAW Feed |
 |------|------|--------------|--------|----------|
@@ -20,9 +32,7 @@
 | 🔗 **Malicious Domains** | `138,700+` | ![Last Commit](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Domain-Threat-List?label=&color=ff8c00) | ![Status](https://img.shields.io/badge/STATUS-ACTIVE-ff8c00?style=flat) | [📥 Download](https://raw.githubusercontent.com/amitambekar510/Malicious-Domain-Threat-List/main/Blacklisted_Malicious_Domain_Repo.txt) |
 | 🔐 **Malicious Hashes** | `85,400+` | ![Last Commit](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Hash-Threat-List?label=&color=9b59b6) | ![Status](https://img.shields.io/badge/STATUS-ACTIVE-9b59b6?style=flat) | [📥 Download](https://raw.githubusercontent.com/amitambekar510/Malicious-Hash-Threat-List/main/malicious_SHA256_hashes_aa.txt) |
 
-**🔄 Auto-Updated every 12 hours via GitHub Actions** | **🚫 Zero duplicates guaranteed** | **✅ Validated against VT/AbuseIPDB**
-
-</div>
+**🔄 Auto-Updated every 12 hours via GitHub Actions** • **🚫 Zero duplicates guaranteed** • **✅ Validated against VT/AbuseIPDB/Talos**
 
 ---
 
@@ -145,6 +155,52 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 
 ---
 
+## 📜 Certifications & Education
+
+<div align="center">
+
+### 🏆 Active Certifications (11)
+
+| Certification | Issuer | Status | Verify |
+|---------------|--------|--------|--------|
+| **Certified Ethical Hacker (CEH)** | EC-Council | ✅ Active | [Verify](https://certification.eccouncil.org) |
+| **Certified Incident Handler (CIH)** | EC-Council | ✅ Active | [Verify](https://certification.eccouncil.org) |
+| **ISO/IEC 27001:2022 Lead Auditor** | Mastermind | ✅ Active | — |
+| **ISO/IEC 27701:2025 Lead Auditor** | Mastermind | ✅ Active | — |
+| **ISO/IEC 42001:2023 Lead Auditor** | Mastermind | ✅ Active | — |
+| **Cyber Threat Intelligence 101** | ArcX | ✅ Active | — |
+| **CNSP** | The SecOps Group | ✅ Active | — |
+| **CCSP** | The SecOps Group | ✅ Active | — |
+| **Certified AppSec Practitioner (CAP)** | The SecOps Group | ✅ Active | — |
+| **Certified AI Agent Security Specialist** | Proofpoint | ✅ Active | — |
+| **SailPoint Identity Security Leader** | SailPoint Technologies | ✅ Active | — |
+| **FALCON 101: Falcon Platform Essentials** | CrowdStrike University | ✅ Active | — |
+| **OT Security Expert (OOSE)** | OPSWAT Academy | ✅ Active | — |
+| **Seceon OTM Advanced & Foundation** | Seceon | ✅ Active | — |
+| **PCI DSS Awareness** | TÜV SÜD | ✅ Active | — |
+| **Microsoft Technology Associate** | Certiport | ✅ Active | — |
+
+### 🎓 In Progress
+| Certification | Status |
+|---------------|--------|
+| **CISM** (Certified Information Security Manager) | 📚 Studying • ISACA membership planned |
+
+### 🎓 Education
+| Degree | Institution | Year |
+|--------|-------------|------|
+| **PGDBM in IT & Systems Management** | Narsee Monjee Institute of Management Studies, Mumbai | 2025 |
+| **Cyber Law** | Symbiosis Centre for Distance Learning (SCDL), Pune | 2021 |
+
+### 🏅 Achievements
+- 🥇 **Best Employee of the Month** — Audix Techno Consulting Solutions
+- 🥈 **Most Promising Newcomer** — Audix Techno Consulting Solutions
+- 🥉 **Bright Beginner Award** — Audix Techno Consulting Solutions
+- 🎤 **Industry Event Exhibitor & Representative** — Comtel Infosystems Private Limited
+
+</div>
+
+---
+
 ## 📡 Live Feed Health Monitor
 
 <div align="center">
@@ -164,12 +220,18 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 
 ---
 
-## 📜 Certifications & Learning
+## 📊 GitHub Analytics
 
-- 🎓 **CompTIA Security+** (Valid)
-- 🎓 **eJPT / eCPPT** (In Progress)
-- 🎓 **AWS Cloud Practitioner** (Planned)
-- 📚 **Continuous Learning**: MITRE ATT&CK, Malware Analysis, Cloud Security
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=amitambekar510&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amitambekar510&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=amitambekar510&theme=tokyonight&hide_border=true&fire=FF6B35&currStreakLabel=Current%20Streak)
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=amitambekar510&theme=tokyo-night&hide_border=true&area=true)
+
+</div>
 
 ---
 
@@ -181,6 +243,7 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 [![Report False Positive](https://img.shields.io/badge/Report-False_Positive-FF4444?style=for-the-badge&logo=bug)](https://github.com/amitambekar510/Malicious-IP-Threat-List/issues/new?template=false_positive.yml)
 [![Submit IOC](https://img.shields.io/badge/Submit-New_IOC-00ff41?style=for-the-badge&logo=plus)](https://github.com/amitambekar510/Malicious-IP-Threat-List/issues/new?template=ioc_submission.yml)
 [![Request Integration](https://img.shields.io/badge/Request-Tool_Integration-ff8c00?style=for-the-badge&logo=wrench)](https://github.com/amitambekar510/Malicious-IP-Threat-List/issues/new?template=integration_request.yml)
+[![Portfolio](https://img.shields.io/badge/Portfolio-thesafehouse.in-FF6B35?style=for-the-badge&logo=firefox)](https://portfolio.thesafehouse.in)
 
 </div>
 
@@ -235,3 +298,18 @@ Output:
 - **Hashes**: Lowercase hex (MD5:32, SHA1:40, SHA256:64 chars)
 
 </details>
+
+---
+
+<div align="center">
+
+### 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amitmilindambekar/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amitambekar510)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio.thesafehouse.in)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@amitambekar510)
+[![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/amit_ambekar_c022e6732f8d)
+[![OTX AlienVault](https://img.shields.io/badge/OTX_AlienVault-00D4AA?style=for-the-badge&logo=alienvault&logoColor=white)](https://otx.alienvault.com/user/amitambekar/pulses)
+
+</div>
