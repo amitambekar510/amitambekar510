@@ -39,24 +39,34 @@
 ## 🎯 Threat Intelligence Platform Overview
 
 ```mermaid
-graph TB
-    A[🔍 Threat Sources] --> B[🤖 Automated Collection]
-    B --> C[✅ Validation Engine]
-    C --> D[🚫 Deduplication]
-    D --> E[📦 GitHub Repos]
-    E --> F[🔥 Firewalls/SIEM/EDR]
-    
-    A1[AbuseIPDB] --> A
-    A2[AlienVault OTX] --> A
-    A3[FireHOL] --> A
-    A4[Tor Project] --> A
-    A5[URLhaus] --> A
-    A6[MalwareBazaar] --> A
-    A7[Custom Honeypots] --> A
-    
-    style A fill:#1a1a2e,stroke:#00ff41
-    style E fill:#16213e,stroke:#ff8c00
-    style F fill:#0f3460,stroke:#9b59b6
+flowchart LR
+    subgraph Sources["🔍 Threat Sources"]
+        S1[AbuseIPDB]
+        S2[AlienVault OTX]
+        S3[FireHOL L1-L4]
+        S4[Tor Project]
+        S5[URLhaus]
+        S6[MalwareBazaar]
+        S7[Custom Honeypots]
+    end
+
+    Pipeline["🤖 Automated Collection<br/>(Every 12h)"]
+    Validate["✅ Validation Engine<br/>VT ≥3 · AbuseIPDB ≥25% · Talos"]
+    Dedup["🚫 Deduplication<br/>Bloom Filter + Git History"]
+    Repos["📦 GitHub Repos<br/>IPs · Domains · Hashes"]
+    Tools["🔥 Firewalls / SIEM / EDR<br/>Palo Alto · Sentinel · Splunk · FortiGate · CrowdStrike · ELK · MISP"]
+
+    Sources --> Pipeline --> Validate --> Dedup --> Repos --> Tools
+
+    classDef source fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#1b5e20;
+    classDef process fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#0d47a1;
+    classDef output fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#4a148c;
+    classDef final fill:#fff3e0,stroke:#ef6c00,stroke-width:2px,color:#e65100;
+
+    class S1,S2,S3,S4,S5,S6,S7 source;
+    class Pipeline,Validate,Dedup process;
+    class Repos output;
+    class Tools final;
 ```
 
 ---
