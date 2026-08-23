@@ -1,0 +1,61 @@
+name: Update Profile Stats Dashboard
+
+on:
+  schedule:
+    # Run every 6 hours to keep stats fresh
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'README.md'
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    name: Update Live Statistics
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+        with:
+          repository: amitambekar510/amitambekar510
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch and update stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_profile_stats.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && echo "No changes" || (
+            git commit -m "chore: update live feed stats [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git push
+          )
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.create({
+              owner: 'amitambekar510',
+              repo: 'amitambekar510',
+              title: '[ALERT] Profile Stats Update Failed',
+              body: 'Automated profile statistics update failed. Check workflow logs.'
+            })
