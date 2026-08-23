@@ -90,15 +90,15 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 
 ### Direct RAW Feed Integration — No Auth Required
 
-| Platform | IP Feed | Domain Feed | Hash Feed | Config |
-|----------|---------|-------------|-----------|--------|
-| **Palo Alto EDL** | ✅ | ✅ | ✅ | [Guide](https://github.com/amitambekar510/Malicious-IP-Threat-List/wiki/Palo-Alto) |
-| **FortiGate** | ✅ | ✅ | ✅ | [Guide](https://github.com/amitambekar510/Malicious-IP-Threat-List/wiki/FortiGate) |
-| **Sophos XG/XGS** | ✅ | ✅ | ❌ | [Guide](https://github.com/amitambekar510/Malicious-Domain-Threat-List/wiki/Sophos) |
-| **Microsoft Sentinel** | ✅ | ✅ | ✅ | [Guide](https://github.com/amitambekar510/Malicious-IP-Threat-List/wiki/Sentinel) |
-| **Splunk ES** | ✅ | ✅ | ✅ | [Guide](https://github.com/amitambekar510/Malicious-IP-Threat-List/wiki/Splunk) |
-| **IBM QRadar** | ✅ | ✅ | ✅ | [Guide](https://github.com/amitambekar510/Malicious-IP-Threat-List/wiki/QRadar) |
-| **CrowdStrike Falcon** | ✅ | ✅ | ✅ | [Guide](https://github.com/amitambekar510/Malicious-Hash-Threat-List/wiki/CrowdStrike) |
+| Platform | IP Feed | Domain Feed | Hash Feed | Integration Guide |
+|----------|---------|-------------|-----------|-------------------|
+| **Palo Alto EDL** | ✅ | ✅ | ✅ | [Palo Alto](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/docs/integration-paloalto.md) |
+| **FortiGate** | ✅ | ✅ | ✅ | [FortiGate](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/docs/integration-fortigate.md) |
+| **Sophos XG/XGS** | ✅ | ✅ | ❌ | [Sophos](https://github.com/amitambekar510/Malicious-Domain-Threat-List/blob/main/docs/integration-sophos.md) |
+| **Microsoft Sentinel** | ✅ | ✅ | ✅ | [Sentinel](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/docs/integration-sentinel.md) |
+| **Splunk ES** | ✅ | ✅ | ✅ | [Splunk](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/docs/integration-splunk.md) |
+| **IBM QRadar** | ✅ | ✅ | ✅ | [QRadar](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/docs/integration-qradar.md) |
+| **CrowdStrike Falcon** | ✅ | ✅ | ✅ | [CrowdStrike](https://github.com/amitambekar510/Malicious-Hash-Threat-List/blob/main/docs/integration-crowdstrike.md) |
 | **ELK Stack** | ✅ | ✅ | ✅ | [Pipeline](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/elk-pipeline.conf) |
 | **MISP** | ✅ | ✅ | ✅ | [Script](https://github.com/amitambekar510/Malicious-IP-Threat-List/blob/main/misp_import.py) |
 | **SentinelOne** | ❌ | ❌ | ✅ | [Script](https://github.com/amitambekar510/Malicious-Hash-Threat-List/blob/main/sentinelone_import.py) |
@@ -159,26 +159,26 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 
 <div align="center">
 
-### 🏆 Active Certifications (11)
+### 🏆 Active Certifications (16)
 
-| Certification | Issuer | Status | Verify |
-|---------------|--------|--------|--------|
-| **Certified Ethical Hacker (CEH)** | EC-Council | ✅ Active | [Verify](https://certification.eccouncil.org) |
-| **Certified Incident Handler (CIH)** | EC-Council | ✅ Active | [Verify](https://certification.eccouncil.org) |
-| **ISO/IEC 27001:2022 Lead Auditor** | Mastermind | ✅ Active | — |
-| **ISO/IEC 27701:2025 Lead Auditor** | Mastermind | ✅ Active | — |
-| **ISO/IEC 42001:2023 Lead Auditor** | Mastermind | ✅ Active | — |
-| **Cyber Threat Intelligence 101** | ArcX | ✅ Active | — |
-| **CNSP** | The SecOps Group | ✅ Active | — |
-| **CCSP** | The SecOps Group | ✅ Active | — |
-| **Certified AppSec Practitioner (CAP)** | The SecOps Group | ✅ Active | — |
-| **Certified AI Agent Security Specialist** | Proofpoint | ✅ Active | — |
-| **SailPoint Identity Security Leader** | SailPoint Technologies | ✅ Active | — |
-| **FALCON 101: Falcon Platform Essentials** | CrowdStrike University | ✅ Active | — |
-| **OT Security Expert (OOSE)** | OPSWAT Academy | ✅ Active | — |
-| **Seceon OTM Advanced & Foundation** | Seceon | ✅ Active | — |
-| **PCI DSS Awareness** | TÜV SÜD | ✅ Active | — |
-| **Microsoft Technology Associate** | Certiport | ✅ Active | — |
+| Certification | Issuer | Status |
+|---------------|--------|--------|
+| **Certified Ethical Hacker (CEH)** | EC-Council | ✅ Active |
+| **Certified Incident Handler (CIH)** | EC-Council | ✅ Active |
+| **ISO/IEC 27001:2022 Lead Auditor** | Mastermind | ✅ Active |
+| **ISO/IEC 27701:2025 Lead Auditor** | Mastermind | ✅ Active |
+| **ISO/IEC 42001:2023 Lead Auditor** | Mastermind | ✅ Active |
+| **Cyber Threat Intelligence 101** | ArcX | ✅ Active |
+| **CNSP** | The SecOps Group | ✅ Active |
+| **CCSP** | The SecOps Group | ✅ Active |
+| **Certified AppSec Practitioner (CAP)** | The SecOps Group | ✅ Active |
+| **Certified AI Agent Security Specialist** | Proofpoint | ✅ Active |
+| **SailPoint Identity Security Leader** | SailPoint Technologies | ✅ Active |
+| **FALCON 101: Falcon Platform Essentials** | CrowdStrike University | ✅ Active |
+| **OT Security Expert (OOSE)** | OPSWAT Academy | ✅ Active |
+| **Seceon OTM Advanced & Foundation** | Seceon | ✅ Active |
+| **PCI DSS Awareness** | TÜV SÜD | ✅ Active |
+| **Microsoft Technology Associate** | Certiport | ✅ Active |
 
 ### 🎓 In Progress
 | Certification | Status |
@@ -207,29 +207,14 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 
 ### Feed Availability (Last 24h)
 
-| Feed | HTTP Status | Response Time | Last Check |
-|------|-------------|---------------|------------|
-| IPs (main) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-IP-Threat-List%2Fmain%2FMalicious-IP-Threat-List.txt&label=IPs&color=00ff41) | < 200ms | Auto |
-| IPs (part_aa) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-IP-Threat-List%2Fmain%2FMalicious-IP-Threat-List_aa&label=IPs_aa&color=00ff41) | < 200ms | Auto |
-| Domains (main) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Domain-Threat-List%2Fmain%2FBlacklisted_Malicious_Domain_Repo.txt&label=Domains&color=ff8c00) | < 200ms | Auto |
-| Domains (part_aa) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Domain-Threat-List%2Fmain%2FBlacklisted_Malicious_Domain_Repo_aa.txt&label=Domains_aa&color=ff8c00) | < 200ms | Auto |
-| SHA256 (aa) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Hash-Threat-List%2Fmain%2Fmalicious_SHA256_hashes_aa.txt&label=SHA256_aa&color=9b59b6) | < 300ms | Auto |
-| SHA256 (ab) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Hash-Threat-List%2Fmain%2Fmalicious_SHA256_hashes_ab.txt&label=SHA256_ab&color=9b59b6) | < 300ms | Auto |
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=amitambekar510&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amitambekar510&layout=compact&theme=tokyonight&hide_border=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=amitambekar510&theme=tokyonight&hide_border=true&fire=FF6B35&currStreakLabel=Current%20Streak)
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=amitambekar510&theme=tokyo-night&hide_border=true&area=true)
+| Feed | HTTP Status | Response Time |
+|------|-------------|---------------|
+| IPs (main) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-IP-Threat-List%2Fmain%2FMalicious-IP-Threat-List.txt&label=IPs&color=00ff41) | < 200ms |
+| IPs (part_aa) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-IP-Threat-List%2Fmain%2FMalicious-IP-Threat-List_aa&label=IPs_aa&color=00ff41) | < 200ms |
+| Domains (main) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Domain-Threat-List%2Fmain%2FBlacklisted_Malicious_Domain_Repo.txt&label=Domains&color=ff8c00) | < 200ms |
+| Domains (part_aa) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Domain-Threat-List%2Fmain%2FBlacklisted_Malicious_Domain_Repo_aa.txt&label=Domains_aa&color=ff8c00) | < 200ms |
+| SHA256 (aa) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Hash-Threat-List%2Fmain%2Fmalicious_SHA256_hashes_aa.txt&label=SHA256_aa&color=9b59b6) | < 300ms |
+| SHA256 (ab) | ![](https://img.shields.io/website?url=https%3A%2F%2Fraw.githubusercontent.com%2Famitambekar510%2FMalicious-Hash-Threat-List%2Fmain%2Fmalicious_SHA256_hashes_ab.txt&label=SHA256_ab&color=9b59b6) | < 300ms |
 
 </div>
 
