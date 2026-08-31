@@ -14,7 +14,7 @@
 
 <div align="center">
 
-### 🎯 Focus: SOC Operations · Threat Intelligence · Security Automation · Cloud Security
+### 🎯 Focus: SOC Operations · Threat Intelligence · Security Automation · Cloud Security · AI-Augmented SOC
 
 ![Profile Views](https://komarev.com/ghpvc/?username=amitambekar510&color=00ff41&style=for-the-badge&label=Profile+Views)
 ![Followers](https://img.shields.io/github/followers/amitambekar510?style=for-the-badge&color=00ff41)
@@ -127,13 +127,32 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 | **[Malicious-Domain-Threat-List](https://github.com/amitambekar510/Malicious-Domain-Threat-List)** | 138K+ malicious domains, phishing, C2 | ⭐ 8 | ![](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Domain-Threat-List?label=&color=ff8c00) |
 | **[Malicious-Hash-Threat-List](https://github.com/amitambekar510/Malicious-Hash-Threat-List)** | 85K+ malware hashes (MD5/SHA1/SHA256) | ⭐ 5 | ![](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Hash-Threat-List?label=&color=9b59b6) |
 
-### 🛡️ SOC & Automation Projects
+### 🛡️ SOC Automation & AI Projects
+
+| Repo | Description | Tech Stack | Platform |
+|------|-------------|------------|----------|
+| **[cti-automation-chain](https://github.com/amitambekar510/cti-automation-chain)** | End-to-end CTI automation: R1→R2→R3→R4 chain with 44 Feedly prompts | Python, OpenCode, Nemotron 3 Ultra, ELK, SOAR | Cross-platform |
+| **[SOC-Nemotron-CLI](https://github.com/amitambekar510/SOC-Nemotron-CLI)** | macOS: Terminal AI-assisted cyber ops with Nemotron 3 Ultra + OpenCode | Python, OpenCode, Nemotron 3 Ultra | macOS ✅ |
+| **[SOC-Nemotron-CLI-Linux](https://github.com/amitambekar510/SOC-Nemotron-CLI-Linux)** | Linux edition: bash/zsh/fish, npm install verified, community-testing | Python, OpenCode, Nemotron 3 Ultra | Linux 🧪 |
+| **[SOC-Nemotron-CLI-Windows](https://github.com/amitambekar510/SOC-Nemotron-CLI-Windows)** | Windows edition: PowerShell, EVTX, Windows Firewall, community-testing | PowerShell, OpenCode, Nemotron 3 Ultra | Windows 🧪 |
+| **[elk-ir-playbooks](https://github.com/amitambekar510/elk-ir-playbooks)** | 59+ ELK IR playbooks, 1,924+ rules, Feedly CTI prompts integrated | YAML, ELK, SOAR, Python | Cross-platform |
+
+### 🔴 Threat Intelligence Feeds (Core)
+
+| Repo | Description | Stars | Last Update |
+|------|-------------|-------|-------------|
+| **[Malicious-IP-Threat-List](https://github.com/amitambekar510/Malicious-IP-Threat-List)** | 149K+ malicious IPs from 7+ intel sources | ⭐ 0 | ![](https://img.shields.io/github/last-commit/amitambekar510/Malicious-IP-Threat-List?label=&color=00ff41) |
+| **[Malicious-Domain-Threat-List](https://github.com/amitambekar510/Malicious-Domain-Threat-List)** | 138K+ malicious domains, phishing, C2 | ⭐ 8 | ![](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Domain-Threat-List?label=&color=ff8c00) |
+| **[Malicious-Hash-Threat-List](https://github.com/amitambekar510/Malicious-Hash-Threat-List)** | 85K+ malware hashes (MD5/SHA1/SHA256) | ⭐ 5 | ![](https://img.shields.io/github/last-commit/amitambekar510/Malicious-Hash-Threat-List?label=&color=9b59b6) |
+
+### 🛡️ SOC & Detection Projects
 
 | Repo | Description | Tech Stack |
 |------|-------------|------------|
 | **[sentinel-ioc-block](https://github.com/amitambekar510/sentinel-ioc-block)** | Automated Tor/AbuseIPDB/FireHOL ingestion → Firewall blocking | Python, GitHub Actions, iptables |
 | **[SOC-DarkWatch](https://github.com/amitambekar510/SOC-DarkWatch)** | Dark web monitoring: SpiderFoot + TorBot + MISP + ELK + FortiGate | Python, Docker, ELK Stack |
-| **[SOC-Nemotron-CLI](https://github.com/amitambekar510/SOC-Nemotron-CLI)** | Terminal-based AI-assisted cyber ops with NVIDIA Nemotron 3 Ultra | Python, OpenCode CLI |
+| **[SIEM-Graph-Investigation-Playbook](https://github.com/amitambekar510/SIEM-Graph-Investigation-Playbook)** | 29 investigation categories, 1,924+ live rules | Kibana, OpenCTI, Graph |
+| **[elk-ir-playbooks](https://github.com/amitambekar510/elk-ir-playbooks)** | 59+ YAML playbooks, 1,924+ rules, Feedly CTI prompts | YAML, ELK, SOAR, Python |
 
 ---
 
@@ -147,6 +166,7 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 ![SIEM Engineering](https://img.shields.io/badge/SIEM_Splunk/ELK/QRadar-Advanced-ff8c00?style=flat-square&logo=splunk)
 ![EDR/XDR](https://img.shields.io/badge/EDR-CrowdStrike/SentinelOne-9b59b6?style=flat-square&logo=datadog)
 ![SOAR](https://img.shields.io/badge/SOAR-Phantom/Cortex-1abc9c?style=flat-square&logo=github)
+![AI-Augmented SOC](https://img.shields.io/badge/AI_Augmented_SOC-Nemotron_3_Ultra-76B900?style=flat-square&logo=nvidia)
 
 ### Automation & Infrastructure
 ![Python](https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python)
@@ -239,6 +259,8 @@ SHA1:     ██████░░░░░░░░░░░░░   +89 new
 [![Submit IOC](https://img.shields.io/badge/Submit-New_IOC-00ff41?style=for-the-badge&logo=plus)](https://github.com/amitambekar510/Malicious-IP-Threat-List/issues/new?template=ioc_submission.yml)
 [![Request Integration](https://img.shields.io/badge/Request-Tool_Integration-ff8c00?style=for-the-badge&logo=wrench)](https://github.com/amitambekar510/Malicious-IP-Threat-List/issues/new?template=integration_request.yml)
 [![Portfolio](https://img.shields.io/badge/Portfolio-thesafehouse.in-FF6B35?style=for-the-badge&logo=firefox)](https://portfolio.thesafehouse.in)
+[![Blog](https://img.shields.io/badge/Blog-blog.thesafehouse.in-1abc9c?style=for-the-badge&logo=rss)](https://blog.thesafehouse.in)
+[![Safehouse Main](https://img.shields.io/badge/Site-thesafehouse.in-0078D4?style=for-the-badge&logo=cloudflare)](https://www.thesafehouse.in)
 
 </div>
 
@@ -303,8 +325,12 @@ Output:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amitmilindambekar/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amitambekar510)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B35?style=for-the-badge&logo=firefox&logoColor=white)](https://portfolio.thesafehouse.in)
+[![Blog](https://img.shields.io/badge/Blog-blog.thesafehouse.in-1abc9c?style=for-the-badge&logo=rss)](https://blog.thesafehouse.in)
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@amitambekar510)
 [![Dev.to](https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/amit_ambekar_c022e6732f8d)
 [![OTX AlienVault](https://img.shields.io/badge/OTX_AlienVault-00D4AA?style=for-the-badge&logo=alienvault&logoColor=white)](https://otx.alienvault.com/user/amitambekar/pulses)
+[![Safehouse Main](https://img.shields.io/badge/Site-thesafehouse.in-0078D4?style=for-the-badge&logo=cloudflare)](https://www.thesafehouse.in)
+[![Blog](https://img.shields.io/badge/Blog-blog.thesafehouse.in-1abc9c?style=for-the-badge&logo=rss)](https://blog.thesafehouse.in)
+[![Safehouse Main](https://img.shields.io/badge/Site-thesafehouse.in-0078D4?style=for-the-badge&logo=cloudflare)](https://www.thesafehouse.in)
 
 </div>
