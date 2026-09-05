@@ -10,8 +10,8 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/amitmilindambekar/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge" alt="Connect on LinkedIn" /></a>
-  <a href="https://portfolio.thesafehouse.in"><img src="https://img.shields.io/badge/Portfolio-Explore-0F766E?style=for-the-badge" alt="Explore my portfolio" /></a>
-  <a href="https://blog.thesafehouse.in"><img src="https://img.shields.io/badge/Blog-Read-6D28D9?style=for-the-badge" alt="Read my security blog" /></a>
+  <a href="https://portfolio.thesafehouse.in"><img src="https://img.shields.io/badge/Portfolio-Explore-FFB020?style=for-the-badge" alt="Explore my portfolio" /></a>
+  <a href="https://blog.thesafehouse.in"><img src="https://img.shields.io/badge/Blog-Read-167D8D?style=for-the-badge" alt="Read my security blog" /></a>
   <a href="mailto:amit.ambekar@protonmail.com"><img src="https://img.shields.io/badge/Email-Let's_talk-334155?style=for-the-badge" alt="Contact me by email" /></a>
 </p>
 
@@ -28,17 +28,23 @@ I'm **Amit Ambekar**, a cybersecurity engineer and threat intelligence researche
 
 I focus on making security information useful: enriching indicators, organizing response playbooks, and helping analysts move from an alert to an informed decision. I also share practical cybersecurity knowledge through **The Safehouse**.
 
+<p align="center"><img src="./assets/security-focus.svg" alt="Security focus: enrich indicators, investigate signals, and guide analyst action." width="100%" /></p>
+
 ## Featured projects
+
+**Choose a starting point:** enrich an IOC, explore a CTI workflow, investigate with a playbook, or try an AI-assisted terminal.
 
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/amitambekar510/ioc-enrichment-console"><img src="./assets/project-enrichment.svg" alt="IOC enrichment — Context for every indicator" width="100%" /></a>
 <h3>🔎 IOC Enrichment Console</h3>
 <p>Investigate IPs, domains, and SHA256 hashes with multi-source enrichment, visual dashboards, and exportable reports.</p>
 <p><strong>Next.js · Flask · Threat intelligence APIs</strong></p>
 <p><a href="https://github.com/amitambekar510/ioc-enrichment-console">Explore the console →</a></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/amitambekar510/cti-automation-chain"><img src="./assets/project-automation.svg" alt="CTI automation — From intelligence to action" width="100%" /></a>
 <h3>⚡ CTI Automation Chain</h3>
 <p>Connect intelligence analysis, detection engineering, automation workflows, and response reporting in a staged pipeline.</p>
 <p><strong>Python · Feedly CTI prompts · OpenCode</strong></p>
@@ -47,12 +53,14 @@ I focus on making security information useful: enriching indicators, organizing 
 </tr>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/amitambekar510/elk-ir-playbooks"><img src="./assets/project-response.svg" alt="ELK playbooks — Structure for investigations" width="100%" /></a>
 <h3>🛡️ ELK Incident Response Playbooks</h3>
 <p>Structured investigation and response resources covering endpoint, identity, network, cloud, and threat intelligence scenarios.</p>
 <p><strong>Elastic / ELK · YAML · Incident response</strong></p>
 <p><a href="https://github.com/amitambekar510/elk-ir-playbooks">Explore the playbooks →</a></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://github.com/amitambekar510/SOC-Nemotron-CLI"><img src="./assets/project-ai.svg" alt="AI-assisted SOC — Security work in the terminal" width="100%" /></a>
 <h3>⌨️ SOC Nemotron CLI</h3>
 <p>Terminal-based, AI-assisted cybersecurity workflows with setup guidance and operational prompt templates.</p>
 <p><strong>OpenCode · NVIDIA Nemotron · SOC workflows</strong></p>
@@ -127,6 +135,8 @@ Explore the repositories for feed files, collection logic, usage guidance, and u
 **Industry participation:** Event exhibitor and representative for Comtel Infosystems Private Limited.
 
 </details>
+
+<p align="center"><a href="https://portfolio.thesafehouse.in"><img src="./assets/portfolio-link.svg" alt="Explore my portfolio for career experience, security expertise, credentials, and writing." width="100%" /></a></p>
 
 ## Writing and collaboration
 
