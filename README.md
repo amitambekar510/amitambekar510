@@ -17,6 +17,8 @@
 
 <p align="center">
   <a href="#featured-projects">Featured projects</a> ·
+  <a href="#project-directory">All projects</a> ·
+  <a href="#live-websites">Live websites</a> ·
   <a href="#threat-intelligence-feeds">IOC feeds</a> ·
   <a href="#security-toolkit">Security toolkit</a> ·
   <a href="#credentials-and-learning">Credentials</a>
@@ -32,7 +34,7 @@ I focus on making security information useful: enriching indicators, organizing 
 
 ## Featured projects
 
-**Choose a starting point:** enrich an IOC, explore a CTI workflow, investigate with a playbook, or try an AI-assisted terminal.
+**Choose a starting point:** enrich an IOC, prepare an investigation prompt in a browser, explore a CTI workflow, or investigate with an ELK playbook.
 
 <table>
 <tr>
@@ -60,16 +62,47 @@ I focus on making security information useful: enriching indicators, organizing 
 <p><a href="https://github.com/amitambekar510/elk-ir-playbooks">Explore the playbooks →</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/amitambekar510/SOC-Nemotron-CLI"><img src="./assets/project-ai.svg" alt="AI-assisted SOC — Security work in the terminal" width="100%" /></a>
-<h3>⌨️ SOC Nemotron CLI</h3>
-<p>Terminal-based, AI-assisted cybersecurity workflows with setup guidance and operational prompt templates.</p>
-<p><strong>OpenCode · NVIDIA Nemotron · SOC workflows</strong></p>
+<a href="https://github.com/amitambekar510/SOC-Nemotron-CLI"><img src="./assets/project-ai.svg" alt="AI-assisted SOC — Local prompt workbench and terminal workflows" width="100%" /></a>
+<h3>⌨️ SOC Nemotron Workbench &amp; CLI</h3>
+<p>Prepare investigation prompts in a local browser workbench with guided inputs, sample data, prompt preview, copy, and Markdown download. Use reviewed prompts through OpenCode for AI-assisted investigations.</p>
+<p><strong>Python · Browser workbench · OpenCode · NVIDIA Nemotron</strong></p>
 <p><a href="https://github.com/amitambekar510/SOC-Nemotron-CLI">Explore the CLI →</a> · <a href="https://github.com/amitambekar510/SOC-Nemotron-CLI-Linux">Linux</a> · <a href="https://github.com/amitambekar510/SOC-Nemotron-CLI-Windows">Windows</a></p>
 </td>
 </tr>
 </table>
 
-**More security resources:** [SIEM Graph Investigation Playbook](https://github.com/amitambekar510/SIEM-Graph-Investigation-Playbook) · [SOC DarkWatch](https://github.com/amitambekar510/SOC-DarkWatch) · [Sentinel IOC Block](https://github.com/amitambekar510/sentinel-ioc-block)
+## Project directory
+
+<details>
+<summary><strong>Browse all public security projects by purpose</strong></summary>
+
+| Project | What it provides | Format |
+| :--- | :--- | :--- |
+| [IOC Enrichment Console](https://github.com/amitambekar510/ioc-enrichment-console) | Multi-source enrichment for IPs, domains, and hashes, with streamed results, maps, and report exports | Next.js + Flask application |
+| [SOC Nemotron Workbench & CLI](https://github.com/amitambekar510/SOC-Nemotron-CLI) | Local prompt preparation for IOC extraction, detection drafts, and investigation workflows | Browser workbench + operating guide |
+| [SOC Nemotron — Linux](https://github.com/amitambekar510/SOC-Nemotron-CLI-Linux) | Linux setup guidance and operational prompt templates | Platform guide |
+| [SOC Nemotron — Windows](https://github.com/amitambekar510/SOC-Nemotron-CLI-Windows) | Windows, PowerShell, and WSL2 guidance for AI-assisted SOC workflows | Platform guide |
+| [CTI Automation Chain](https://github.com/amitambekar510/cti-automation-chain) | Staged intelligence analysis, detection engineering, automation, and response reporting | Python workflow project |
+| [Elastic / ELK Detection Rules](https://github.com/amitambekar510/Safehouse-MITRE-Attack-Detection-Rules-Elastic-ELK) | MITRE ATT&CK-mapped TOML rules with investigation and tuning guidance | Detection-rule collection |
+| [ELK Incident Response Playbooks](https://github.com/amitambekar510/elk-ir-playbooks) | Structured endpoint, identity, network, cloud, and CTI investigations | Playbook collection |
+| [SIEM Graph Investigation Playbook](https://github.com/amitambekar510/SIEM-Graph-Investigation-Playbook) | Investigation pivots for Kibana Graph and OpenCTI | Investigation reference |
+| [SOC DarkWatch](https://github.com/amitambekar510/SOC-DarkWatch) | Phased planning, architecture, and governance for defensive monitoring | Implementation roadmap |
+| [Sentinel IOC Block](https://github.com/amitambekar510/sentinel-ioc-block) | Proposed threat-feed ingestion and perimeter-firewall blocking workflow | Proposal / proof of concept |
+| [Nessus Authenticated VA Guide](https://github.com/amitambekar510/nessus-authenticated-va-scan-guide) | Credentialed vulnerability-assessment setup for Windows and Linux servers | Configuration guide |
+| [Linux System & FIO Reports](https://github.com/amitambekar510/system-report-script) | System inventory, account checks, and disk benchmarks with HTML, text, CSV, and JSON outputs | Bash reporting script |
+| [Malicious IP Threat List](https://github.com/amitambekar510/Malicious-IP-Threat-List) | IP indicator files, collection guidance, and update history | Threat-intelligence feed |
+| [Malicious Domain Threat List](https://github.com/amitambekar510/Malicious-Domain-Threat-List) | Domain indicator files, collection guidance, and update history | Threat-intelligence feed |
+| [Malicious Hash Threat List](https://github.com/amitambekar510/Malicious-Hash-Threat-List) | File-hash indicators, collection guidance, and update history | Threat-intelligence feed |
+
+</details>
+
+## Live websites
+
+| Website | Explore | Built with |
+| :--- | :--- | :--- |
+| [Amit Ambekar Portfolio](https://portfolio.thesafehouse.in) | Career experience, security expertise, certifications, projects, and contact details | Next.js · TypeScript · Vercel |
+| [The Safehouse](https://www.thesafehouse.in) | Organizational security awareness and personal digital safety services | Next.js · TypeScript · Vercel |
+| [The Safehouse Journal](https://blog.thesafehouse.in) | Practical cybersecurity articles, topic tags, and reading series | Next.js · MDX · Vercel |
 
 ## Threat intelligence feeds
 
