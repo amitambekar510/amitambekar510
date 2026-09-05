@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
 <title id="title">Amit Ambekar — Cybersecurity Engineer</title>
-<desc id="desc">Threat intelligence, detection engineering and SOC automation. Navy and teal banner with a shield and connected signal nodes.</desc>
+<desc id="desc">Threat intelligence, detection engineering and SOC automation. Navy and teal banner with a shield and connected signal nodes. The radar ring rotates slowly and sends out a gentle pulse; reduced-motion preferences disable animation.</desc>
+<style>
+.radar-orbit { transform-origin: 0px 0px; animation: orbit 18s linear infinite; }
+.radar-pulse { transform-origin: 0px 0px; animation: pulse 5s ease-out infinite; }
+@keyframes orbit { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes pulse { 0% { transform: scale(.78); opacity: 0; } 20% { opacity: .45; } 100% { transform: scale(1.18); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .radar-orbit, .radar-pulse { animation: none; } .radar-pulse { display: none; } }
+</style>
 <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#112b3a"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#274352" stroke-width=".6"/></pattern></defs>
 <rect width="1200" height="380" rx="24" fill="url(#bg)"/><rect width="1200" height="380" rx="24" fill="url(#grid)" opacity=".55"/>
 <rect x="48" y="49" width="5" height="25" rx="2" fill="#5eead4"/>
@@ -13,4 +20,4 @@
 <rect x="253" y="291" width="177" height="37" rx="18" fill="#142e4e" stroke="#32557b"/><text x="274" y="315" font-size="14" fill="#bfdbfe">DETECTION / ELK</text>
 <rect x="442" y="291" width="179" height="37" rx="18" fill="#292443" stroke="#615282"/><text x="460" y="315" font-size="14" fill="#ddd6fe">SOC AUTOMATION</text>
 </g>
-<g transform="translate(950 187)" fill="none"><circle r="123" stroke="#29495b"/><circle r="94" stroke="#2a5868" stroke-dasharray="4 9"/><path d="M0-74 61-48V5C61 48 28 75 0 89-28 75-61 48-61 5V-48Z" fill="#11383f" stroke="#5eead4" stroke-width="3"/><path d="m-28 7 20 20 40-45" stroke="#99f6e4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M-123 0h-43M123 0h43M0-123v-27M0 123v27" stroke="#4c8291" stroke-width="2"/><g fill="#5eead4"><circle cx="-166" r="5"/><circle cx="166" r="5"/><circle cy="-150" r="5"/><circle cy="150" r="5"/></g></g></svg>
+<g transform="translate(950 187)" fill="none"><circle r="123" stroke="#29495b"/><circle class="radar-pulse" r="123" stroke="#5eead4" stroke-width="2" opacity="0"/><g class="radar-orbit"><circle r="94" stroke="#2a5868" stroke-dasharray="4 9"/><path d="M0-123 A123 123 0 0 1 106.5-61.5" stroke="#5eead4" stroke-width="3" stroke-linecap="round" opacity=".75"/></g><path d="M0-74 61-48V5C61 48 28 75 0 89-28 75-61 48-61 5V-48Z" fill="#11383f" stroke="#5eead4" stroke-width="3"/><path d="m-28 7 20 20 40-45" stroke="#99f6e4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><path d="M-123 0h-43M123 0h43M0-123v-27M0 123v27" stroke="#4c8291" stroke-width="2"/><g fill="#5eead4"><circle cx="-166" r="5"/><circle cx="166" r="5"/><circle cy="-150" r="5"/><circle cy="150" r="5"/></g></g></svg>
