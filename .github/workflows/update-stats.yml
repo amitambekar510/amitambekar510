@@ -1,61 +1,58 @@
-name: Update Profile Stats Dashboard
+name: Validate Profile
 
 on:
-  schedule:
-    # Run every 6 hours to keep stats fresh
-    - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
     paths:
       - 'README.md'
+      - 'assets/**'
+      - '.github/workflows/update-stats.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'assets/**'
+      - '.github/workflows/update-stats.yml'
 
+# Badges refresh externally; this workflow does not generate statistics,
+# commit README changes, or create failure-notification issues.
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  update-stats:
-    name: Update Live Statistics
+  validate:
+    name: Validate README and banner
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 5
     steps:
-      - name: Checkout profile repo
-        uses: actions/checkout@v4
+      - name: Checkout profile
+        uses: actions/checkout@v7
         with:
-          repository: amitambekar510/amitambekar510
-          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: false
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Fetch and update stats
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Validate profile assets
+        shell: bash
         run: |
-          python scripts/update_profile_stats.py
+          python3 - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
 
-      - name: Commit and push if changed
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --quiet && echo "No changes" || (
-            git commit -m "chore: update live feed stats [$(date -u +'%Y-%m-%d %H:%M UTC')]"
-            git push
-          )
+          readme = Path("README.md").read_text(encoding="utf-8")
+          banner = Path("assets/security-banner.svg")
+          if not readme.strip():
+              raise SystemExit("README.md is empty")
+          if f'src="./{banner.as_posix()}"' not in readme:
+              raise SystemExit("README.md must reference the security banner")
+          root = ET.parse(banner).getroot()
+          if root.tag != "{http://www.w3.org/2000/svg}svg":
+              raise SystemExit("The banner must be a valid SVG document")
+          if not root.findtext("{http://www.w3.org/2000/svg}title"):
+              raise SystemExit("The banner needs an accessible title")
+          print("README and SVG banner validation passed.")
+          PY
 
-      - name: Notify on failure
+      - name: Report failure
         if: failure()
-        uses: actions/github-script@v7
-        with:
-          script: |
-            github.rest.issues.create({
-              owner: 'amitambekar510',
-              repo: 'amitambekar510',
-              title: '[ALERT] Profile Stats Update Failed',
-              body: 'Automated profile statistics update failed. Check workflow logs.'
-            })
+        shell: bash
+        run: |
+          echo "::error::Profile validation failed. Review the failed step above."
+          echo "Profile validation failed. Review the failed step in this run." >> "$GITHUB_STEP_SUMMARY"
