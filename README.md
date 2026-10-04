@@ -151,8 +151,8 @@ Explore the repositories for feed files, collection logic, usage guidance, and u
 | **ISO/IEC 27701:2025 Lead Auditor** | Mastermind |
 | **ISO/IEC 42001:2023 Lead Auditor** | Mastermind |
 | **Cyber Threat Intelligence 101** | ArcX |
-| **CNSP** | The SecOps Group |
-| **CCSP** | The SecOps Group |
+| **Certified Network Security Practitioner (CNSP)** | The SecOps Group |
+| **Certified Cloud Security Practitioner (CCSP)** | The SecOps Group |
 | **Certified AppSec Practitioner (CAP)** | The SecOps Group |
 | **Certified AI Agent Security Specialist** | Proofpoint |
 | **SailPoint Identity Security Leader** | SailPoint Technologies |
