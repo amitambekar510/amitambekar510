@@ -144,6 +144,7 @@ Explore the repositories for feed files, collection logic, usage guidance, and u
 
 | Certification | Issuer |
 |---------------|--------|
+| **Certified Information Security Manager (CISM) — Certified 2026** | ISACA |
 | **Certified Ethical Hacker (CEH)** | EC-Council |
 | **Certified Incident Handler (CIH)** | EC-Council |
 | **ISO/IEC 27001:2022 Lead Auditor** | Mastermind |
@@ -170,8 +171,6 @@ Explore the repositories for feed files, collection logic, usage guidance, and u
 | :--- | :--- | :--- |
 | PGDBM in IT & Systems Management | Narsee Monjee Institute of Management Studies, Mumbai | 2025 |
 | Cyber Law | Symbiosis Centre for Distance Learning, Pune | 2021 |
-
-**Current learning:** CISM — Certified Information Security Manager.
 
 **Recognition:** Best Employee of the Month, Most Promising Newcomer, and Bright Beginner Award at Audix Techno Consulting Solutions.
 
