@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
+<title id="t">How AI-ready projects work</title>
+<desc id="d">Four steps: pick an AI-ready project, paste its prompt into your AI assistant, answer guided questions one at a time, and receive a ready deliverable such as a roster, PDF report, handbook or plan. Review every output before use.</desc>
+<style>
+.card{fill:#0f1620;stroke:#263646;stroke-width:1.5}
+.glow{fill:none;stroke:#ffb020;stroke-width:3;opacity:0;animation:step 8s infinite}
+.g2{animation-delay:2s}.g3{animation-delay:4s}.g4{animation-delay:6s}
+@keyframes step{0%{opacity:0}4%{opacity:1}22%{opacity:1}28%{opacity:0}100%{opacity:0}}
+.arrow{animation:flow 2s ease-in-out infinite}
+@keyframes flow{0%,100%{opacity:.35}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.glow{animation:none;opacity:0}.arrow{animation:none}}
+</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b0f14"/><stop offset="1" stop-color="#121924"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#274352" stroke-width=".6"/></pattern></defs>
+<rect width="1200" height="330" rx="24" fill="url(#bg)"/><rect width="1200" height="330" rx="24" fill="url(#grid)" opacity=".5"/>
+<text x="48" y="52" font-family="JetBrains Mono,DejaVu Sans Mono,Consolas,monospace" font-size="20" letter-spacing="2" fill="#ffb020">AI-READY · OPEN FOR EVERYONE</text>
+<g font-family="Segoe UI,Inter,Arial,DejaVu Sans,sans-serif">
+<g transform="translate(48 80)"><rect class="card" width="252" height="196" rx="14"/><rect class="glow" width="252" height="196" rx="14"/>
+<text x="22" y="40" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="20" fill="#35d0e0">01</text>
+<text x="22" y="86" font-size="23" font-weight="bold" fill="#e7eef4">Pick a project</text>
+<text x="22" y="124" font-size="19" fill="#b5c2cf">Open any AI-ready</text><text x="22" y="150" font-size="19" fill="#b5c2cf">repository below.</text></g>
+<g transform="translate(330 80)"><rect class="card" width="252" height="196" rx="14"/><rect class="glow g2" width="252" height="196" rx="14"/>
+<text x="22" y="40" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="20" fill="#35d0e0">02</text>
+<text x="22" y="86" font-size="23" font-weight="bold" fill="#e7eef4">Paste the prompt</text>
+<text x="22" y="124" font-size="19" fill="#b5c2cf">Give your AI assistant</text><text x="22" y="150" font-size="19" fill="#b5c2cf">the repo link.</text></g>
+<g transform="translate(612 80)"><rect class="card" width="252" height="196" rx="14"/><rect class="glow g3" width="252" height="196" rx="14"/>
+<text x="22" y="40" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="20" fill="#35d0e0">03</text>
+<text x="22" y="86" font-size="23" font-weight="bold" fill="#e7eef4">Answer questions</text>
+<text x="22" y="124" font-size="19" fill="#b5c2cf">Guided, one at a time,</text><text x="22" y="150" font-size="19" fill="#b5c2cf">about your setup.</text></g>
+<g transform="translate(894 80)"><rect class="card" width="258" height="196" rx="14"/><rect class="glow g4" width="258" height="196" rx="14"/>
+<text x="22" y="40" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="20" fill="#3fd68b">04</text>
+<text x="22" y="86" font-size="23" font-weight="bold" fill="#e7eef4">Get it ready</text>
+<text x="22" y="124" font-size="19" fill="#b5c2cf">Roster, PDF, handbook</text><text x="22" y="150" font-size="19" fill="#b5c2cf">or plan to review.</text></g>
+</g>
+<g class="arrow" fill="#ffb020"><path d="M308 169l14 9-14 9z"/><path d="M590 169l14 9-14 9z"/><path d="M872 169l14 9-14 9z"/></g>
+<text x="48" y="312" font-family="Segoe UI,Inter,Arial,DejaVu Sans,sans-serif" font-size="17" fill="#b5c2cf">Always review AI output · Never put secrets or customer data in prompts</text>
+</svg>
