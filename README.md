@@ -110,54 +110,66 @@ No GitHub access in your assistant? Download the repository ZIP, attach it, and 
 <p><strong>AI-guided SOC reporting for any SIEM</strong></p>
 <p align="center"><a href="https://github.com/amitambekar510/AnySIEM-Reports"><img src="https://raw.githubusercontent.com/amitambekar510/AnySIEM-Reports/main/assets/media/reporting-workflow.gif" alt="Animated five-stage AnySIEM-Reports workflow from template choice to PDF" width="100%" /></a></p>
 <p>Choose from <strong>38 report blueprints</strong> across operations, incident response, threat intelligence, governance, exposure, and managed-service reporting. Answer guided questions about your SOC and your AI assistant helps turn approved evidence into a polished PDF.</p>
-<p><img src="https://img.shields.io/badge/AI--Guided-ffb020?style=flat-square&labelColor=0b0f14" alt="AI-Guided" /> <img src="https://img.shields.io/badge/38_Templates-35d0e0?style=flat-square&labelColor=0b0f14" alt="38 Templates" /> <img src="https://img.shields.io/badge/SIEM--Agnostic-3fd68b?style=flat-square&labelColor=0b0f14" alt="SIEM-Agnostic" /> <img src="https://img.shields.io/badge/PDF_Output-8b9bb0?style=flat-square&labelColor=0b0f14" alt="PDF Output" /></p>
-<p><a href="https://github.com/amitambekar510/AnySIEM-Reports">Explore the framework →</a> · <a href="https://github.com/amitambekar510/AnySIEM-Reports/blob/main/catalog/templates.yaml">Template catalog</a> · <a href="https://github.com/amitambekar510/AnySIEM-Reports/blob/main/AI_INSTRUCTIONS.md">AI guide</a></p>
-<p><sub>Illustrative walkthrough — not a live application. Inputs and regulatory claims always need human review.</sub></p>
+<p><img src="./assets/tags-anysiem.svg" alt="Key features: AI-Guided, 38 Templates, SIEM-Agnostic, PDF Output" /></p>
+<p><a href="https://github.com/amitambekar510/AnySIEM-Reports"><img src="./assets/btn-explore.svg" alt="Explore the AnySIEM-Reports project on GitHub" height="38" /></a>&nbsp;&nbsp;<a href="https://github.com/amitambekar510/AnySIEM-Reports/blob/main/catalog/templates.yaml"><img src="./assets/btn-catalog.svg" alt="Browse the AnySIEM-Reports template catalog" height="38" /></a>&nbsp;&nbsp;<a href="https://github.com/amitambekar510/AnySIEM-Reports/blob/main/AI_INSTRUCTIONS.md"><img src="./assets/btn-ai-guide.svg" alt="Read the AnySIEM-Reports AI guide" height="38" /></a></p>
+
+> 🧪 **Note:** Illustrative walkthrough, not a live application. Inputs and regulatory claims always need human review.
+
 <hr />
 
 <h3>🛰️ MSP Sentinel AI 3.0</h3>
 <p><strong>AI-guided infrastructure intake, public CTI fusion, and a multi-tenant SOC demonstration</strong></p>
 <p align="center"><a href="https://github.com/amitambekar510/msp-sentinel-ai"><img src="https://raw.githubusercontent.com/amitambekar510/msp-sentinel-ai/main/assets/msp-sentinel-ai-demo.gif" alt="Animated MSP Sentinel AI dashboard with threat surface, AI situation brief and tenant health" width="100%" /></a></p>
 <p>Tell an AI assistant about your SIEM, tenants, telemetry, and controls — one question at a time — and receive an infrastructure-specific adoption plan that separates what is implemented from what production still needs.</p>
-<p><img src="https://img.shields.io/badge/AI--Ready-ffb020?style=flat-square&labelColor=0b0f14" alt="AI-Ready" /> <img src="https://img.shields.io/badge/CTI_Fusion-35d0e0?style=flat-square&labelColor=0b0f14" alt="CTI Fusion" /> <img src="https://img.shields.io/badge/Multi--Tenant-3fd68b?style=flat-square&labelColor=0b0f14" alt="Multi-Tenant" /> <img src="https://img.shields.io/badge/Python-8b9bb0?style=flat-square&labelColor=0b0f14" alt="Python" /></p>
-<p><a href="https://github.com/amitambekar510/msp-sentinel-ai">Explore the project →</a> · <a href="https://github.com/amitambekar510/msp-sentinel-ai/blob/main/AI_INSTRUCTIONS.md">AI guide</a></p>
-<p><sub>Demo tenants and data are synthetic. Not a compliance certificate; production use requires your own validation.</sub></p>
+<p><img src="./assets/tags-msp.svg" alt="Key features: AI-Ready, CTI Fusion, Multi-Tenant, Python" /></p>
+<p><a href="https://github.com/amitambekar510/msp-sentinel-ai"><img src="./assets/btn-explore.svg" alt="Explore the MSP Sentinel AI project on GitHub" height="38" /></a>&nbsp;&nbsp;<a href="https://github.com/amitambekar510/msp-sentinel-ai/blob/main/AI_INSTRUCTIONS.md"><img src="./assets/btn-ai-guide.svg" alt="Read the MSP Sentinel AI guide" height="38" /></a></p>
+
+> 🧪 **Note:** Demo tenants and data are synthetic. This is not a compliance certificate; production use requires your own validation.
+
 <hr />
 
 <h3>🗓️ ShiftGuard 4.0</h3>
 <p><strong>AI-ready SOC workforce studio for 24/7 rosters</strong></p>
 <p align="center"><a href="https://github.com/amitambekar510/ShiftGuard-SOC-Roster-Management"><img src="https://raw.githubusercontent.com/amitambekar510/ShiftGuard-SOC-Roster-Management/main/assets/shiftguard-demo.gif" alt="Animated ShiftGuard demo of shift coverage, roster edits and diagnostics" width="100%" /></a></p>
 <p>Build monthly SOC rosters with general-shift priority and coverage diagnostics. Use an AI assistant to collect names and roles, or run the local guided wizard — everything stays local-first, with Excel export.</p>
-<p><img src="https://img.shields.io/badge/AI--Ready-ffb020?style=flat-square&labelColor=0b0f14" alt="AI-Ready" /> <img src="https://img.shields.io/badge/Local--First-3fd68b?style=flat-square&labelColor=0b0f14" alt="Local-First" /> <img src="https://img.shields.io/badge/Python_3.10+-35d0e0?style=flat-square&labelColor=0b0f14" alt="Python 3.10+" /> <img src="https://img.shields.io/badge/Excel_Export-8b9bb0?style=flat-square&labelColor=0b0f14" alt="Excel Export" /></p>
-<p><a href="https://github.com/amitambekar510/ShiftGuard-SOC-Roster-Management">Explore ShiftGuard →</a> · <a href="https://amitambekar510.github.io/ShiftGuard-SOC-Roster-Management/">Interactive studio</a></p>
-<p><sub>Illustrative animation using fictional analysts — not real SOC staffing data.</sub></p>
+<p><img src="./assets/tags-shiftguard.svg" alt="Key features: AI-Ready, Local-First, Python 3.10+, Excel Export" /></p>
+<p><a href="https://github.com/amitambekar510/ShiftGuard-SOC-Roster-Management"><img src="./assets/btn-explore.svg" alt="Explore the ShiftGuard project on GitHub" height="38" /></a>&nbsp;&nbsp;<a href="https://amitambekar510.github.io/ShiftGuard-SOC-Roster-Management/"><img src="./assets/btn-live.svg" alt="Open the ShiftGuard interactive studio" height="38" /></a></p>
+
+> 🧪 **Note:** Illustrative animation using fictional analysts, not real SOC staffing data.
+
 <hr />
 
 <h3>📘 SOC Operations Handbook</h3>
 <p><strong>A 21-section, SIEM-agnostic handbook with an AI builder</strong></p>
 <p align="center"><a href="https://github.com/amitambekar510/soc-operations-handbook"><img src="./assets/handbook-ai-builder.gif" alt="Animated four-step AI Builder flow from organization profile to a customized SOC handbook" width="100%" /></a></p>
 <p>Stop writing SOC documentation from scratch. Fill in an organization profile, hand the master prompt to your AI tool, and generate a handbook customized to your SOC — with templates, checklists, and Indian regulatory coverage (CERT-In, SEBI CSCRF, RBI, DPDP).</p>
-<p><img src="https://img.shields.io/badge/AI--Ready-ffb020?style=flat-square&labelColor=0b0f14" alt="AI-Ready" /> <img src="https://img.shields.io/badge/21_Sections-35d0e0?style=flat-square&labelColor=0b0f14" alt="21 Sections" /> <img src="https://img.shields.io/badge/Templates_%26_Checklists-3fd68b?style=flat-square&labelColor=0b0f14" alt="Templates %26 Checklists" /> <img src="https://img.shields.io/badge/SIEM--Agnostic-8b9bb0?style=flat-square&labelColor=0b0f14" alt="SIEM-Agnostic" /></p>
-<p><a href="https://github.com/amitambekar510/soc-operations-handbook">Explore the handbook →</a> · <a href="https://github.com/amitambekar510/soc-operations-handbook/blob/main/ai-builder/README.md">AI Builder guide</a> · <a href="https://amitambekar510.github.io/soc-operations-handbook">Read online</a></p>
-<p><sub>Illustrative walkthrough — not a live application. Review generated content before adopting it.</sub></p>
+<p><img src="./assets/tags-handbook.svg" alt="Key features: AI-Ready, 21 Sections, Templates and Checklists, SIEM-Agnostic" /></p>
+<p><a href="https://github.com/amitambekar510/soc-operations-handbook"><img src="./assets/btn-explore.svg" alt="Explore the SOC Operations Handbook on GitHub" height="38" /></a>&nbsp;&nbsp;<a href="https://github.com/amitambekar510/soc-operations-handbook/blob/main/ai-builder/README.md"><img src="./assets/btn-ai-guide.svg" alt="Read the AI Builder guide" height="38" /></a>&nbsp;&nbsp;<a href="https://amitambekar510.github.io/soc-operations-handbook"><img src="./assets/btn-read.svg" alt="Read the SOC Operations Handbook online" height="38" /></a></p>
+
+> 🧪 **Note:** Illustrative walkthrough, not a live application. Review generated content before adopting it.
+
 <hr />
 
 <h3>🧭 SOC Career Launchpad</h3>
 <p><strong>A plain-English guide to starting a SOC career — with an AI tutor mode</strong></p>
-<p align="center"><a href="https://github.com/amitambekar510/SOC-Career-Launchpad"><img src="https://raw.githubusercontent.com/amitambekar510/SOC-Career-Launchpad/main/visuals/alert-lifecycle.gif" alt="Animated life-of-an-alert diagram from first alert to lessons learned" width="100%" /></a></p>
+<p align="center"><a href="https://github.com/amitambekar510/SOC-Career-Launchpad"><img src="./assets/career-alert-lifecycle.gif" alt="Animated life-of-an-alert diagram from first alert to lessons learned" width="100%" /></a></p>
 <p>A beginner-friendly roadmap (networking, Linux, security fundamentals, attacks, alert handling, SIEM/EDR tools, interview prep, regulations) with an 8-week study plan. Connect an AI assistant and it becomes a tutor that asks first and tracks your progress.</p>
-<p><img src="https://img.shields.io/badge/AI_Tutor-ffb020?style=flat-square&labelColor=0b0f14" alt="AI Tutor" /> <img src="https://img.shields.io/badge/8--Week_Plan-35d0e0?style=flat-square&labelColor=0b0f14" alt="8-Week Plan" /> <img src="https://img.shields.io/badge/Beginner--Friendly-3fd68b?style=flat-square&labelColor=0b0f14" alt="Beginner-Friendly" /> <img src="https://img.shields.io/badge/MIT-8b9bb0?style=flat-square&labelColor=0b0f14" alt="MIT" /></p>
-<p><a href="https://github.com/amitambekar510/SOC-Career-Launchpad">Start learning →</a> · <a href="https://github.com/amitambekar510/SOC-Career-Launchpad/blob/main/ai/README.md">AI tutor setup</a></p>
-<p><sub>One of several animated lessons in the repository.</sub></p>
+<p><img src="./assets/tags-career.svg" alt="Key features: AI Tutor, 8-Week Plan, Beginner-Friendly, MIT" /></p>
+<p><a href="https://github.com/amitambekar510/SOC-Career-Launchpad"><img src="./assets/btn-explore.svg" alt="Start learning with SOC Career Launchpad on GitHub" height="38" /></a>&nbsp;&nbsp;<a href="https://github.com/amitambekar510/SOC-Career-Launchpad/blob/main/ai/README.md"><img src="./assets/btn-ai-guide.svg" alt="Set up the SOC Career Launchpad AI tutor" height="38" /></a></p>
+
+> 📚 **Note:** One of several animated lessons in the repository.
+
 <hr />
 
 <h3>🧱 Universal SIEM Dashboard Framework v2.0</h3>
 <p><strong>14 vendor-neutral dashboard designs for threat hunting, compliance, and AI security</strong></p>
 <p align="center"><a href="https://github.com/amitambekar510/siem-dashboard-framework"><img src="https://raw.githubusercontent.com/amitambekar510/siem-dashboard-framework/main/assets/v2-hero.gif" alt="Animated SIEM Dashboard Framework v2.0 hero showing frameworks, dashboards and AI areas mapped" width="100%" /></a></p>
 <p>Dashboard designs mapped to 8 frameworks and regulations, with new ISO/IEC 27090 (AI threats) and ISO/IEC 42001 (AI management) coverage, an <code>ai.*</code> telemetry schema, and hunt playbooks — for any SIEM.</p>
-<p><img src="https://img.shields.io/badge/14_Dashboards-35d0e0?style=flat-square&labelColor=0b0f14" alt="14 Dashboards" /> <img src="https://img.shields.io/badge/AI_Security-ffb020?style=flat-square&labelColor=0b0f14" alt="AI Security" /> <img src="https://img.shields.io/badge/ISO_27090_%2B_42001-3fd68b?style=flat-square&labelColor=0b0f14" alt="ISO 27090 %2B 42001" /> <img src="https://img.shields.io/badge/MIT-8b9bb0?style=flat-square&labelColor=0b0f14" alt="MIT" /></p>
-<p><a href="https://github.com/amitambekar510/siem-dashboard-framework">Explore the framework →</a> · <a href="https://github.com/amitambekar510/siem-dashboard-framework/blob/main/docs/dashboard-catalog.md">Dashboard catalog</a> · <a href="https://amitambekar510.github.io/siem-dashboard-framework/">Live showcase</a></p>
-<p><sub>Demo visuals are synthetic and watermarked — no real production or client data.</sub></p>
+<p><img src="./assets/tags-siem.svg" alt="Key features: 14 Dashboards, AI Security, ISO 27090 + 42001, MIT" /></p>
+<p><a href="https://github.com/amitambekar510/siem-dashboard-framework"><img src="./assets/btn-explore.svg" alt="Explore the SIEM Dashboard Framework on GitHub" height="38" /></a>&nbsp;&nbsp;<a href="https://github.com/amitambekar510/siem-dashboard-framework/blob/main/docs/dashboard-catalog.md"><img src="./assets/btn-catalog.svg" alt="Browse the dashboard catalog" height="38" /></a>&nbsp;&nbsp;<a href="https://amitambekar510.github.io/siem-dashboard-framework/"><img src="./assets/btn-live.svg" alt="Open the live SIEM dashboard showcase" height="38" /></a></p>
+
+> 🧪 **Note:** Demo visuals are synthetic and watermarked, with no real production or client data.
+
 <hr />
 
 ### 🛠️ Core security engineering

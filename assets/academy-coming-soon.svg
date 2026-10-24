@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-labelledby="t d">
+<title id="t">The Safehouse Academy — coming soon</title>
+<desc id="d">The Safehouse Academy is launching soon with the Cyber Security and Audit Ready Course, built around what the market needs today.</desc>
+<style>
+.soon{animation:blink 2.6s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.45}}
+.ring{transform-origin:1030px 120px;animation:spin 16s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.soon,.ring{animation:none}}
+</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b0f14"/><stop offset="1" stop-color="#121924"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#274352" stroke-width=".6"/></pattern></defs>
+<rect width="1200" height="240" rx="24" fill="url(#bg)"/><rect width="1200" height="240" rx="24" fill="url(#grid)" opacity=".5"/>
+<rect x="1" y="1" width="1198" height="238" rx="23" fill="none" stroke="#8a621c" stroke-width="1.5"/>
+<g class="soon"><rect x="48" y="34" width="204" height="36" rx="18" fill="#2b2314" stroke="#ffb020"/><circle cx="72" cy="52" r="5" fill="#ffb020"/><text x="88" y="58" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="16" letter-spacing="2" fill="#ffb020">COMING SOON</text></g>
+<text x="48" y="122" font-family="JetBrains Mono,DejaVu Sans Mono,Consolas,monospace" font-size="40" font-weight="bold" fill="#e7eef4">The Safehouse Academy</text>
+<text x="48" y="164" font-family="Segoe UI,Inter,Arial,DejaVu Sans,sans-serif" font-size="27" fill="#35d0e0">Cyber Security &amp; Audit Ready Course</text>
+<text x="48" y="204" font-family="Segoe UI,Inter,Arial,DejaVu Sans,sans-serif" font-size="19" fill="#b5c2cf">Built around the skills today's market asks for. Launching very soon.</text>
+<g transform="translate(1030 120)" fill="none"><circle r="84" stroke="#29495b"/><g class="ring"><circle r="64" stroke="#2a5868" stroke-dasharray="4 9"/></g>
+<path d="M0-48 38-32V6C38 34 18 50 0 60-18 50-38 34-38 6V-32Z" fill="#11383f" stroke="#35d0e0" stroke-width="3"/>
+<path d="M-17 4l12 12 24-28" stroke="#3fd68b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
