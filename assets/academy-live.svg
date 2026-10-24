@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="t d">
+<title id="t">The Safehouse Learning Academy — now live</title>
+<desc id="d">The Safehouse Learning Academy is live at learn.thesafehouse.in: free, self-paced cybersecurity and standards learning with no account required. Tagline: The Art of Security Judgment.</desc>
+<style>
+.live{animation:blink 2.4s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.5}}
+.ring{transform-origin:1030px 118px;animation:spin 16s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.live,.ring{animation:none}}
+</style>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b0f14"/><stop offset="1" stop-color="#121924"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#274352" stroke-width=".6"/></pattern></defs>
+<rect width="1200" height="250" rx="24" fill="url(#bg)"/><rect width="1200" height="250" rx="24" fill="url(#grid)" opacity=".5"/>
+<rect x="1" y="1" width="1198" height="248" rx="23" fill="none" stroke="#1d6b73" stroke-width="1.5"/>
+<g class="live"><rect x="48" y="30" width="170" height="36" rx="18" fill="#0f2a22" stroke="#3fd68b"/><circle cx="72" cy="48" r="5" fill="#3fd68b"/><text x="88" y="54" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="16" letter-spacing="2" fill="#3fd68b">NOW LIVE</text></g>
+<text x="48" y="118" font-family="JetBrains Mono,DejaVu Sans Mono,Consolas,monospace" font-size="36" font-weight="bold" fill="#e7eef4">The Safehouse Learning Academy</text>
+<text x="48" y="161" font-family="Segoe UI,Inter,Arial,DejaVu Sans,sans-serif" font-size="27" fill="#35d0e0">The Art of Security Judgment</text>
+<text x="48" y="200" font-family="Segoe UI,Inter,Arial,DejaVu Sans,sans-serif" font-size="19" fill="#b5c2cf">Free, self-paced cybersecurity and standards learning. No account required.</text>
+<g transform="translate(1030 112)" fill="none"><circle r="82" stroke="#29495b"/><g class="ring"><circle r="62" stroke="#2a5868" stroke-dasharray="4 9"/></g>
+<path d="M0-46 36-30V6C36 32 17 48 0 57-17 48-36 32-36 6V-30Z" fill="#11383f" stroke="#35d0e0" stroke-width="3"/>
+<path d="M-16 4l11 11 22-26" stroke="#3fd68b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1030" y="231" text-anchor="middle" font-family="JetBrains Mono,DejaVu Sans Mono,monospace" font-size="17" fill="#ffb020">learn.thesafehouse.in</text>
+</svg>
